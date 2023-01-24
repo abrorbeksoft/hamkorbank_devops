@@ -27,13 +27,13 @@
 ### Rest service
 1. Run in terminal ``go mod tidy``
 2. Run in terminal ``go mod vendor``
-3. Run in terminal ``go run cmd/main``
+3. Run in terminal ``make migrate`` for migrate all tables
+4. Run in terminal ``go run cmd/main``
 
 ### Logger service
 1. Run in terminal ``go mod tidy``
 2. Run in terminal ``go mod vendor``
-3. Run in terminal ``make migrate`` for migrate all tables
-4. Run in terminal ``go run cmd/main``
+3. Run in terminal ``go run cmd/main``
 
 
 ### Trigger listener service
