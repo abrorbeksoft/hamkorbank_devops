@@ -5,7 +5,8 @@
 1. Docker
 2. Docker compose management
 3. Golang version 1.8
-4. Chrome
+4. migrate helper for golang
+5. Chrome
 
 
 ## Follow guide below
@@ -31,7 +32,8 @@
 ### Logger service
 1. Run in terminal ``go mod tidy``
 2. Run in terminal ``go mod vendor``
-3. Run in terminal ``go run cmd/main``
+3. Run in terminal ``make migrate`` for migrate all tables
+4. Run in terminal ``go run cmd/main``
 
 
 ### Trigger listener service
