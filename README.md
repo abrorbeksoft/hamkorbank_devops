@@ -5,6 +5,7 @@
 1. Docker
 2. Docker compose management
 3. Golang version 1.8
+4. Chrome
 
 
 ## Follow guide below
@@ -37,3 +38,11 @@
 1. Run in terminal ``go mod tidy``
 2. Run in terminal ``go mod vendor``
 3. Run in terminal ``go run cmd/main``
+
+### See result
+1. Open in browser [http://localhost:15672](http://localhost:15672)
+2. Login  = ``guest`` password =  ``guest``
+3. Open tab Queues
+4. Publish message in 
+   `` { "record_id" : "phone_id" } `` format in trigger_listener queue 
+5. You can see result in logger terminal
